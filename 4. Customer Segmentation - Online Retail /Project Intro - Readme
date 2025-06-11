@@ -1,0 +1,50 @@
+🚀 Unleashing Insights from Customer Data using ML 🔍💡
+Hey LinkedIn fam!
+I'm excited to share my latest 𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴 𝗽𝗿𝗼𝗷𝗲𝗰𝘁 where I built a 𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗦𝗲𝗴𝗺𝗲𝗻𝘁𝗮𝘁𝗶𝗼𝗻 system using RFM modeling + clustering techniques. Let’s dive in! 👇
+
+🔷 📌 𝗜𝗻𝘁𝗿𝗼𝗱𝘂𝗰𝘁𝗶𝗼𝗻
+In today’s fast-moving e-commerce world, 𝗸𝗻𝗼𝘄𝗶𝗻𝗴 𝘆𝗼𝘂𝗿 𝗰𝘂𝘀𝘁𝗼𝗺𝗲𝗿𝘀 is not enough — 𝘀𝗲𝗴𝗺𝗲𝗻𝘁𝗶𝗻𝗴 𝘁𝗵𝗲𝗺 𝗶𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝘁𝗹𝘆 is the key to personalization, retention, and profits.
+
+🌟 💡 𝗠𝗼𝘁𝗶𝘃𝗮𝘁𝗶𝗼𝗻
+Companies struggle to identify 𝗹𝗼𝘆𝗮𝗹, 𝗮𝘁-𝗿𝗶𝘀𝗸, 𝗼𝗿 𝗵𝗶𝗴𝗵-𝘃𝗮𝗹𝘂𝗲 𝗰𝘂𝘀𝘁𝗼𝗺𝗲𝗿𝘀. I wanted to solve this by combining data science and business insights into one robust pipeline. 💻📊
+
+🧩 ❓ 𝗣𝗿𝗼𝗯𝗹𝗲𝗺 𝗦𝘁𝗮𝘁𝗲𝗺𝗲𝗻𝘁
+How can we 𝗰𝗹𝘂𝘀𝘁𝗲𝗿 𝗰𝘂𝘀𝘁𝗼𝗺𝗲𝗿𝘀 based on their buying behavior using historical transactional data — without labeled outcomes?
+
+📦 🗂 𝗗𝗮𝘁𝗮𝘀𝗲𝘁 𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄
+I used the popular 𝗢𝗻𝗹𝗶𝗻𝗲 𝗥𝗲𝘁𝗮𝗶𝗹 𝗗𝗮𝘁𝗮𝘀𝗲𝘁:
+🛒 ~500K transactions
+👥 ~4K unique customers
+📅 Includes 𝗜𝗻𝘃𝗼𝗶𝗰𝗲𝗡𝗼, 𝗣𝗿𝗼𝗱𝘂𝗰𝘁, 𝗤𝘂𝗮𝗻𝘁𝗶𝘁𝘆, 𝗣𝗿𝗶𝗰𝗲, 𝗜𝗻𝘃𝗼𝗶𝗰𝗲𝗗𝗮𝘁𝗲, 𝗮𝗻𝗱 𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿𝗜𝗗
+
+📚 🔬 𝗦𝘁𝗮𝘁𝗲 𝗼𝗳 𝘁𝗵𝗲 𝗔𝗿𝘁
+Used 𝗥𝗙𝗠 𝗔𝗻𝗮𝗹𝘆𝘀𝗶𝘀 (Recency, Frequency, Monetary) to engineer features and tested 3 clustering algorithms:
+✅ KMeans
+✅ DBSCAN
+✅ Gaussian Mixture Models (GMM)
+All after scaling and reducing dimensions using PCA.
+
+🛠️ 🧪 𝗠𝗲𝘁𝗵𝗼𝗱𝗼𝗹𝗼𝗴𝘆
+📌 Cleaned the data (removed nulls, negatives)
+📌 Engineered TotalPrice and calculated RFM features
+📌 Scored customers (RFM scoring: 1–5 scale)
+📌 Standardized features → PCA → Clustered using KMeans, DBSCAN, and GMM
+📌 Visualized and evaluated using Silhouette Score
+
+📈 📊 𝗥𝗲𝘀𝘂𝗹𝘁𝘀 & 𝗗𝗶𝘀𝗰𝘂𝘀𝘀𝗶𝗼𝗻
+💥 Identified optimal number of clusters (K) using KMeans
+💥 Clustered customers visually using PCA-reduced features
+💥 Achieved clear separation in behavioral groups
+💥 Best performance: KMeans with highest silhouette score
+
+🔮 📌 𝗙𝘂𝘁𝘂𝗿𝗲 𝗪𝗼𝗿𝗸 & 𝗖𝗼𝗻𝗰𝗹𝘂𝘀𝗶𝗼𝗻
+✅ Add time-based features (e.g., first/last purchase, trend)
+✅ Add product-level segmentation
+✅ Deploy on web using Streamlit or Flask
+💡 This project shows how unsupervised ML + business logic can empower smarter decisions for marketing, retention, and growth.
+
+In this customer segmentation project, I built a complete machine learning pipeline to analyze and segment retail customers based on their purchasing behavior. Using the Online Retail dataset, I performed exploratory data analysis (EDA), cleaned and preprocessed the data, and engineered key features using the RFM (Recency, Frequency, Monetary) model. I then applied dimensionality reduction using PCA and experimented with multiple unsupervised learning algorithms such as KMeans, DBSCAN, and Gaussian Mixture Models (GMM) to identify distinct customer segments. The results showed that KMeans produced the most meaningful clusters with high silhouette scores, revealing actionable groups like loyal customers, low spenders, and at-risk buyers. Visualizations were used to compare clustering outputs, and the insights can help businesses drive targeted marketing strategies. In the future, this project could be enhanced by incorporating product-level or time-based features and deploying it via Streamlit or Flask for real-time applications. If you’re interested in trying this project yourself, feel free to visit my Kaggle and GitHub repositories.
+
+🙌 Let me know what you think!
+Would love your feedback & suggestions. 👇
+#MachineLearning #CustomerSegmentation #Clustering #Python #EDA #DataScience #RFM #KMeans #GMM #DBSCAN #PCA #RetailAnalytics #LinkedInProjects
