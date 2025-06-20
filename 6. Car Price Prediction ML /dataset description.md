@@ -1,5 +1,5 @@
 # Car Price Prediction Project
-
+![car price prediction](https://github.com/user-attachments/assets/460dd594-ebac-4c76-9608-2e6aac1bebea)
 ## Problem Statement
 
 A Chinese automobile company, **Geely Auto**, aspires to enter the US market by setting up their manufacturing unit there and producing cars locally to compete with their US and European counterparts.
